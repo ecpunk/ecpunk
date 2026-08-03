@@ -44,7 +44,8 @@ answers in running code.
 
 ## Writing
 
-Provisional patent on PII-free authorization — authorization is momentary;
-identity retention doesn't have to be permanent. Published on insider risk
-(human nature, not malice, drives most threats) and on what AI-era fraud
-actually looks like.
+Provisional patent on PII-free authorization — [authorization is momentary;
+identity retention doesn't have to be permanent](https://momentarytech.com/2026/02/authorization-is-momentary/).
+Published on [insider risk](https://momentarytech.com/2025/09/insider-risk/)
+(human nature, not malice, drives most threats) and on [what AI-era fraud
+actually looks like](https://momentarytech.com/2026/02/fraud-2026/).
