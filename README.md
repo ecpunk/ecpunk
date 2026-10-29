@@ -19,11 +19,13 @@ answers in running code.
   coordination layer. One schema-validated record of what exists, what work is
   in flight, and what each actor — human or agent — is permitted to do. Rules
   as data, propose-confirm writes, drift detection between declared state and
-  reality, every human-facing view generated rather than maintained.
+  reality, and one bootstrap script that stands up your own instance.
 - **[operator-kernel](https://github.com/ecpunk/operator-kernel)** — the
   constrained alternative to "give the agent a shell." Observes before it
   plans, plans only from pre-authored runbooks, executes only against an
-  explicit approval token, and leaves a proof artifact for every run.
+  explicit approval token, and leaves a proof artifact for every run. Kept as
+  a reference implementation; the platform now enforces the same contract
+  natively.
 - **[rubric-judge](https://github.com/ecpunk/rubric-judge)** — a two-stage
   watch pipeline: deterministic gates in code, an LLM judge scoring what
   survives against a prose policy rubric, an append-only audit trail, and a
@@ -35,8 +37,8 @@ answers in running code.
   endpoints, starter scripts, and a prompt pack that lets an AI assistant
   scaffold a working integration workspace from one paste.
 - **[remote-mcp-server](https://github.com/ecpunk/remote-mcp-server)** —
-  lessons learned standing up remote MCP servers: connector auth, session
-  memory, keeping keys server-side.
+  lessons learned standing up remote MCP servers: connector handshakes and
+  CORS, session memory, keeping keys server-side.
 - Hardware — **[CNC-Air-Blaster](https://github.com/ecpunk/CNC-Air-Blaster)**,
   **[Oven-Temp-Monitor](https://github.com/ecpunk/Oven-Temp-Monitor)** — same
   instinct, different substrate. If I depend on it, I want to understand it
